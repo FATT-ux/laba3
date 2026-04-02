@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW | Микроблог</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <img src="./images/icon.png" alt="машина">
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li><a href="#">На главную</a></li>
+                <li><a href="#">О товаре</a></li>
+                <li><a href="#">Другие модели</a></li>
+                <li><a href="#">Фотогалерея</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="welcome">
+            <div class="welcome-text">
+                <h1 class="welcome-title">Технологичная спортивная машина</h1>
+            </div>
+                <p class="welcome-desc">
+                    <img src="./images/car.png" alt="" class="welcome-img">
+                    BMW M5 F90 — это бизнес-седан с душой суперкара. 
+                    Главная фишка поколения — полноприводная трансмиссия M xDrive, 
+                    которая позволяет одним нажатием кнопки превратить машину 
+                    в классический заднеприводный снаряд для дрифта. Под капотом скрывается 4,4-литровый 
+                    V8 битурбо мощностью от 600 до 625 л.с. 
+                    (в версии Competition), 
+                    разгоняющий «эмку» до сотни за 
+                    невероятные 3.3–3.4 секунды. 
+                    Это идеальное сочетание комфорта
+                    люкс-класса и агрессивной динамики,
+                    способной удивить на гоночном треке.
+                </p>
+                    <div class="welcome-btn">
+                        <a href="#" class="btn">ЧИТАТЬ ДАЛЕЕ</a>
+                        <a href="#" class="btn">КУПИТЬ</a>
+                    </div>
+                    <hr>
+        </section>
+
+        <section class="gallery">
+            <h1 class="gallery-title">Галерея</h1>
+            <div class="gallery-big-img">
+                <img src="./images/img-car-big.png" alt="" class="gallery-img" id="mainImg">
+            </div>
+            <div class="gallery-container" id="galleryContainer">
+            <div class="car-gallery-card">
+                <img src="./images/img-car.png" alt="" class="gallery-img">
+            </div>
+            <div class="car-gallery-card">
+                <img src="./images/img-car2.png" alt="" class="gallery-img">
+            </div>
+            <div class="car-gallery-card">
+                <img src="./images/img-car3.png" alt="" class="gallery-img">
+            </div>
+            <div class="car-gallery-card">
+                <img src="./images/img-car4.png" alt="" class="gallery-img">
+            </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="accordion">
+            <h1 class="accordion-main-title">часто задаваемые вопросы</h1>
+            <details>
+            <summary>что на счет гарантии?</summary>
+            <p class="summary-p">гарантия действует на протяжении 5 лет и если вы не меня детали сами</p>
+            </details>
+
+            <details>
+            <summary>где можно оформить страховку?</summary>
+            <p class="summary-p">у наших партнеров ОСАГА ...</p>
+            </details> 
+        </section>
+        <hr>
+
+        <section class="order-form">
+            <h1 class="order-form-title">форма заказа</h1>
+            <div class="order-form-input">
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Отчество">
+            <input type="text" placeholder="+7">
+            <input type="text" placeholder="Город">
+            <input type="text" placeholder="Адрес">
+            </div>
+            <div class="order-form-checkbox">
+                <input type="checkbox"> <p class="order-form-desc">согласие на обработку персональных данных ...</p> 
+            </div>
+            <div class="order-form-checkbox">
+                <input type="checkbox"> <p class="order-form-desc">согласие на рассылку  </p>
+            </div>
+                <a href="#" class="btn">КУПИТЬ</a>
+        </section>
+        <hr>
+    </main>
+
+   <footer class="footer">
+<p datetime="2026-04-01">&copy; 2026 ХГУ. Все права защищены.</p>
+<ul class=»footer-links»>
+    <li><a href=»#»>Политика конфиденциальности</a></li>
+    <li><a href=»#»>Условия использования</a></li>
+</ul>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
